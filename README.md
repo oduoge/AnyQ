@@ -85,7 +85,7 @@ docker pull hub.baidubce.com/paddlepaddle/paddle:latest-dev
 cp ../tools/anyq_deps.sh .
 sh anyq_deps.sh
 
-# 启动solr, 依赖python-json, jdk>=1.8
+# 启动solr, 依赖python-json, jdk>=1.8 (32位)
 cp ../tools/solr -rp solr_script
 sh solr_script/anyq_solr.sh solr_script/sample_docs
 
